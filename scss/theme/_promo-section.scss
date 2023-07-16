@@ -1,0 +1,78 @@
+/* ======= Promo Section ======= */
+.promo-section {
+    //min-height: 560px;
+    
+    position: relative;
+}
+
+.hero-carousel {
+    height: 560px;
+    color: #fff;
+    background-color: $text-color-primary;
+    
+    .carousel-inner {
+        .item {
+            height: 560px;
+            background-position: center center;
+            padding-top: 100px;
+        }
+        .item-1 {
+            background-image: url('../images/hero/hero-1.jpg');
+            @include background-size(cover);
+        }
+        .item-2 {
+            background-image: url('../images/hero/hero-2.jpg');
+            @include background-size(cover);
+        }
+        .item-3 {
+            background-image: url('../images/hero/hero-3.jpg');
+            @include background-size(cover);
+        }
+        
+        .item-4 {
+            background-image: url('../images/hero/hero-4.jpg');
+            @include background-size(cover);
+        }
+        .item-5 {
+            background-image: url('../images/hero/hero-5.jpg');
+            @include background-size(cover);
+        }
+        
+        .item-content-inner {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .heading {
+            font-size: 38px;
+            line-height: 1.2;
+            font-weight: 900;
+            margin-top:0;
+            margin-bottom: 15px;
+        }
+        .intro {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    }
+    
+    .carousel-indicators [data-bs-target] {
+	    width: 11px;
+	    height: 11px;
+	    margin-right: 6px;
+	    
+	    @include border-radius(50%);
+	    &:last-child {
+		    margin-right: 0;
+	    }
+    }
+
+}
+
+
+
+/* Hack - http://stackoverflow.com/questions/33494764/owl-carousel-2-resize-window-bug */
+.owl-carousel .owl-item img {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
