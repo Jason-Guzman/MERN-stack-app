@@ -1,0 +1,30 @@
+/* ======= Services Section ======= */
+.section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.services-section {
+  .item {
+    margin-bottom: 60px;
+  }
+  .item-inner {
+    padding: 0 15px;
+    height: 100%;
+  }
+  .item-title {
+    color: #1e3143;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .custom-icon {
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #4e7eac;
+    font-size: 68px;
+  }
+  .cta-area {
+    margin-top: 45px;
+  }
+}

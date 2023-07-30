@@ -1,0 +1,71 @@
+/* ======= Promo Section ======= */
+.promo-section {
+  min-height: 560px;
+  position: relative;
+}
+
+.carousel {
+  height: 560px;
+  color: #fff;
+  background-color: #4e7eac;
+}
+
+.carousel .carousel-inner .item {
+  height: 560px;
+  background-position: center center;
+  padding-top: 100px;
+}
+
+.carousel .carousel-inner .item-1 {
+  background-image: url("../assets/images/hero/hero-1.jpg");
+  background-size: cover;
+}
+
+.carousel .carousel-inner .item-2 {
+  background-image: url("../assets/images/hero/hero-2.jpg");
+  background-size: cover;
+}
+
+.carousel .carousel-inner .item-3 {
+  background-image: url("../assets/images/hero/hero-3.jpg");
+  background-size: cover;
+}
+
+.carousel .carousel-inner .item-4 {
+  background-image: url("../assets/images/hero/hero-4.jpg");
+  background-size: cover;
+}
+
+.carousel .carousel-inner .item-5 {
+  background-image: url("../assets/images/hero/hero-5.jpg");
+  background-size: cover;
+}
+
+.carousel .carousel-inner .item-content-inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.carousel .carousel-inner .heading {
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.carousel .carousel-inner .intro {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.carousel .carousel-indicators [data-bs-target] {
+  width: 11px;
+  height: 11px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+.carousel .carousel-indicators [data-bs-target]:last-child {
+  margin-right: 0;
+}
