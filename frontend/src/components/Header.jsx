@@ -12,6 +12,7 @@ import {
   FaWrench,
 } from "react-icons/fa";
 import "./Header.css";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Header = () => {
   return (
@@ -19,51 +20,58 @@ const Header = () => {
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
           {/* <Navbar.Brand href='/'>MERN App</Navbar.Brand> */}
-
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="/login">
-                <FaHouseDamage /> Home
-              </Nav.Link>
+              <LinkContainer to="/">
+                <Nav.Link>
+                  <FaHouseDamage /> Home
+                </Nav.Link>
+              </LinkContainer>
 
-              <Nav.Link href="/login">
-                <FaWrench /> Services
-              </Nav.Link>
+              {/* <LinkContainer>
+                <Nav.Link>
+                  <FaWrench /> Services
+                </Nav.Link>
+              </LinkContainer>
 
-              <Nav.Link href="/login">
+              <Nav.Link>
                 <FaQuestion />
                 Why Us
               </Nav.Link>
 
-              <Nav.Link href="/login">
+              <Nav.Link>
                 <FaStar /> Reviews
               </Nav.Link>
 
-              <Nav.Link href="/login">
+              <Nav.Link>
                 <FaPaperPlane /> About
               </Nav.Link>
 
-              <Nav.Link href="/login">
+              <Nav.Link>
                 <FaShoppingBasket /> Shop
               </Nav.Link>
 
-              <Nav.Link href="/login">
+              <Nav.Link>
                 <FaQuestionCircle /> FAQs
               </Nav.Link>
 
-              <Nav.Link href="/login">
+              <Nav.Link>
                 <FaBook /> Contact
-              </Nav.Link>
+              </Nav.Link> */}
 
-              <Nav.Link href="/login">
-                <FaSignInAlt /> Sign In
-              </Nav.Link>
+              <LinkContainer to="/login">
+                <Nav.Link>
+                  <FaSignInAlt /> Sign In
+                </Nav.Link>
+              </LinkContainer>
 
-              <Nav.Link href="/login">
-                <FaSignOutAlt /> Sign Up
-              </Nav.Link>
+              <LinkContainer to="/register">
+                <Nav.Link>
+                  <FaSignOutAlt /> Sign Up
+                </Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>
