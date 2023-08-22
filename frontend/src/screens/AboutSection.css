@@ -1,0 +1,16 @@
+/* ======= About Section ======= */
+.about-section {
+  background: #f5f5f5;
+}
+.about-desc {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.about-figure {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}

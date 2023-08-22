@@ -1,0 +1,94 @@
+/* ======= Reviews Section ======= */
+.reviews-section {
+  background: darken($color-primary, 15%);
+  color: #fff;
+}
+
+.reviews-section .rating {
+  margin-bottom: 15px;
+}
+
+.reviews-section .rating .svg-inline--fa {
+  color: $color-rating;
+}
+
+.reviews-section .customer-profile {
+  display: inline-block;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.reviews-section .inner {
+  padding: 30px;
+}
+
+.reviews-section .quote {
+  border-left: none;
+  padding: 0;
+  font-size: 14px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.reviews-section .quote .svg-inline--fa {
+  position: absolute;
+  left: -8px;
+  color: rgba(256, 256, 256, 0.6);
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+}
+
+.reviews-section .source {
+  font-size: 12px;
+  color: rgba(256, 256, 256, 0.8);
+}
+
+.reviews-section .source a {
+  color: rgba(256, 256, 256, 0.8);
+}
+
+.reviews-section .source a:hover {
+  color: #fff;
+}
+
+/* Adjust the width of carousel items to show 3 items at a time */
+.owl-carousel .item {
+  width: calc(100% / 3);
+}
+
+/* Adjust the spacing between carousel items as needed */
+.owl-carousel .owl-stage-outer {
+  margin: 0 -10px; /* Adjust as needed */
+}
+
+.owl-carousel .owl-stage .item {
+  padding: 0 10px; /* Adjust as needed */
+}
+
+.tns-nav {
+  display: block;
+  margin-top: 1rem;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.tns-nav button {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4);
+  border: 0;
+}
+
+.tns-nav button.tns-nav-active {
+  background: rgba(256, 256, 256, 0.6);
+}
+
+.tns-nav button:focus {
+  outline: none;
+}
