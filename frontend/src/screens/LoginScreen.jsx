@@ -7,6 +7,7 @@ import "./LoginScreen.css";
 import { useLoginMutation } from "../slices/usersApiSlice";
 import { setCredentials } from "../slices/authSlice";
 import { toast } from "react-toastify";
+import Loader from "../components/Loader";
 
 const LoginScreen = () => {
   const [email, setEmail] = useState("");
@@ -65,6 +66,8 @@ const LoginScreen = () => {
                     style={{ width: "100%" }}
                   />
                 </Form.Group>
+
+                {isLoading && <Loader />}
 
                 <Button type="submit" variant="primary" className="mt-2">
                   Sign In
