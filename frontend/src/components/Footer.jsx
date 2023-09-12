@@ -2,9 +2,13 @@ import "./Footer.css";
 import {
   FaCheck,
   FaEnvelope,
+  FaFacebook,
+  FaGithub,
+  FaInstagram,
   FaMapMarked,
   FaMapPin,
   FaPhone,
+  FaTwitter,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -68,35 +72,33 @@ const Footer = () => {
           </div>
 
           <div className="footer-col follow-us-col col-lg-4 col-12">
-            <h3 className="col-title">Follow Us</h3>
+            <h3 className="col-title">About Us</h3>
             <div className="intro">
-              Today, <strong>Jason & Company</strong> stands as a trusted name
-              in AWS consulting, known for our deep expertise, unwavering
-              commitment, and passion for helping businesses thrive in the
-              digital age. We invite you to be a part of our story, and
-              together, we can embrace the limitless possibilities of the cloud.
+              <strong>Jason & Company</strong> stands as a trusted name in AWS
+              consulting, known for our deep expertise and passion for helping
+              businesses thrive in the digital age.
             </div>
 
             <div className="social-container">
               <ul className="list-inline social-list">
                 <li className="list-inline-item social-item">
                   <a href="#">
-                    <i className="fab fa-facebook-f"></i>
+                    <FaInstagram />
                   </a>
                 </li>
                 <li className="list-inline-item social-item">
                   <a href="#">
-                    <i className="fab fa-twitter"></i>
+                    <FaGithub />
                   </a>
                 </li>
                 <li className="list-inline-item social-item">
                   <a href="#">
-                    <i className="fab fa-instagram"></i>
+                    <FaTwitter />
                   </a>
                 </li>
                 <li className="list-inline-item social-item">
                   <a href="#">
-                    <i className="fab fa-youtube"></i>
+                    <FaFacebook />
                   </a>
                 </li>
               </ul>
