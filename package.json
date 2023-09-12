@@ -16,7 +16,7 @@
     "url": "git+https://github.com/Jason-Guzman/MERN-stack-app.git"
   },
   "author": "Jason-Guzman",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Jason-Guzman/MERN-stack-app/issues"
   },

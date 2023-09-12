@@ -1,14 +1,19 @@
 /* ======= Footer ======= */
 .footer {
+  margin-top: 60px;
   background: #113560;
+
   color: rgba(256, 256, 256, 0.7);
+
   a {
     color: rgba(256, 256, 256, 0.7);
     &:hover {
       color: #fff;
     }
   }
+
   font-size: 14px;
+
   .col-title {
     font-size: 18px;
     color: #fff;

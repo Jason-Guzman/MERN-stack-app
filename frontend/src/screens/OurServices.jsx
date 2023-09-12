@@ -1,6 +1,14 @@
 import { Button } from "react-bootstrap";
 import "./OurServices.css";
-import { FaQuestionCircle } from "react-icons/fa";
+import {
+  FaQuestionCircle,
+  FaShieldVirus,
+  FaRocket,
+  FaCode,
+  FaCodeBranch,
+  FaFireExtinguisher,
+  FaDollarSign,
+} from "react-icons/fa";
 
 const OurServices = () => {
   return (
@@ -9,24 +17,37 @@ const OurServices = () => {
         <h2 className="section-title">Our Services</h2>
 
         <div className="section-intro">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Aenean massa.
+          <p>
+            Welcome to <strong>Jason & Company</strong> AWS Consulting Services,
+            where innovation meets reliability. As a seasoned AWS tech
+            consultant, I bring a wealth of experience and expertise to help you
+            navigate the complex world of Amazon Web Services. Whether you're
+            looking to optimize your infrastructure, enhance security,
+            streamline development pipelines, or need 24/7 support, I offer
+            tailored solutions designed to elevate your AWS journey.
+          </p>
+          <p className="pt-1">
+            With a focus on efficiency, cost-effectiveness, and best practices,
+            I am dedicated to empowering your business to thrive in the cloud.
+            Explore my comprehensive range of consulting services below and
+            let's embark on a journey to unlock the true potential of AWS for
+            your organization.
+          </p>
         </div>
 
         <div className="services-list row">
           <div className="item col-lg-4 col-md-6 col-12">
             <div className="item-inner">
               <span className="custom-icon icon-wheel_barrow">
-                <FaQuestionCircle />
+                <FaRocket />
               </span>
-              <h3 className="item-title">Plastering</h3>
+              <h3 className="item-title">AWS Infrastructure Optimization</h3>
               <div className="item-desc">
                 <p>
-                  There are 50+ construction icon fonts included in this
-                  template. Lorem ipsum dolor sit amet, consectetuer adipiscing
-                  elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
-                  amet, consectetuer adipiscing elit.
+                  Maximize the efficiency and cost-effectiveness of your AWS
+                  infrastructure. We'll fine-tune your resources, automate
+                  scaling, and implement cost-saving strategies to ensure
+                  optimal performance without overspending.
                 </p>
               </div>
             </div>
@@ -34,15 +55,18 @@ const OurServices = () => {
           <div className="item col-lg-4 col-md-6 col-12">
             <div className="item-inner">
               <span className="custom-icon icon-paint_brush">
-                <FaQuestionCircle />
+                <FaCodeBranch />
               </span>
-              <h3 className="item-title">Painting &amp; Decorating</h3>
+              <h3 className="item-title">
+                Continuous Integration &amp; Continuous Deployment (CI/CD)
+                Pipeline Setup
+              </h3>
               <div className="item-desc">
                 <p>
-                  There are 50+ construction icon fonts included in this
-                  template. Lorem ipsum dolor sit amet, consectetuer adipiscing
-                  elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
-                  amet, consectetuer adipiscing elit.
+                  Streamline your development process with a robust CI/CD
+                  pipeline. We'll design and implement automated workflows that
+                  enable rapid and reliable software delivery, ensuring faster
+                  time-to-market and higher software quality.
                 </p>
               </div>
             </div>
@@ -50,15 +74,15 @@ const OurServices = () => {
           <div className="item col-lg-4 col-md-6 col-12">
             <div className="item-inner">
               <span className="custom-icon icon-paint_roller">
-                <FaQuestionCircle />
+                <FaShieldVirus />
               </span>
-              <h3 className="item-title">Renovation &amp; Refurb</h3>
+              <h3 className="item-title">AWS Security &amp; Compliance</h3>
               <div className="item-desc">
                 <p>
-                  There are 50+ construction icon fonts included in this
-                  template. Lorem ipsum dolor sit amet, consectetuer adipiscing
-                  elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
-                  amet, consectetuer adipiscing elit.
+                  Safeguard your AWS environment against threats and ensure
+                  compliance with industry regulations. We'll assess and enhance
+                  your security posture, set up monitoring and alerting, and
+                  provide ongoing security management.
                 </p>
               </div>
             </div>
@@ -66,15 +90,18 @@ const OurServices = () => {
           <div className="item col-lg-4 col-md-6 col-12">
             <div className="item-inner">
               <span className="custom-icon icon-digger">
-                <FaQuestionCircle />
+                <FaCode />
               </span>
-              <h3 className="item-title">Extension</h3>
+              <h3 className="item-title">
+                Infrastructure as Code (IaC) Implementation
+              </h3>
               <div className="item-desc">
                 <p>
-                  There are 50+ construction icon fonts included in this
-                  template. Lorem ipsum dolor sit amet, consectetuer adipiscing
-                  elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
-                  amet, consectetuer adipiscing elit.
+                  Harness the power of IaC to manage your infrastructure
+                  programmatically. We'll help you adopt tools like Terraform or
+                  AWS CloudFormation to provision and manage resources
+                  efficiently, reducing manual errors and enabling version
+                  control.
                 </p>
               </div>
             </div>
@@ -82,15 +109,17 @@ const OurServices = () => {
           <div className="item col-lg-4 col-md-6 col-12">
             <div className="item-inner">
               <span className="custom-icon icon-ladder">
-                <FaQuestionCircle />
+                <FaDollarSign />
               </span>
-              <h3 className="item-title">Roofing</h3>
+              <h3 className="item-title">
+                AWS Cost Optimization &amp; Budget Management
+              </h3>
               <div className="item-desc">
                 <p>
-                  There are 50+ construction icon fonts included in this
-                  template. Lorem ipsum dolor sit amet, consectetuer adipiscing
-                  elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
-                  amet, consectetuer adipiscing elit.
+                  Control your AWS spending and avoid unexpected bills. We'll
+                  create a customized cost optimization strategy, set budgets,
+                  and implement tools for monitoring and tracking expenses to
+                  keep your cloud costs in check.
                 </p>
               </div>
             </div>
@@ -98,15 +127,17 @@ const OurServices = () => {
           <div className="item col-lg-4 col-md-6 col-12">
             <div className="item-inner">
               <span className="custom-icon icon-ruler_pencil">
-                <FaQuestionCircle />
+                <FaFireExtinguisher />
               </span>
-              <h3 className="item-title">Loft Conversion</h3>
+              <h3 className="item-title">
+                24/7 AWS Support and Incident Response
+              </h3>
               <div className="item-desc">
                 <p>
-                  There are 50+ construction icon fonts included in this
-                  template. Lorem ipsum dolor sit amet, consectetuer adipiscing
-                  elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
-                  amet, consectetuer adipiscing elit.
+                  Ensure the reliability and availability of your AWS
+                  applications with around-the-clock support. We offer proactive
+                  monitoring, rapid incident response, and expert guidance to
+                  minimize downtime and resolve issues promptly.
                 </p>
               </div>
             </div>

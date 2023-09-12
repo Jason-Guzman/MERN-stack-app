@@ -9,6 +9,7 @@ import {
   FaShoppingBasket,
   FaSignInAlt,
   FaSignOutAlt,
+  FaSuitcase,
   FaStar,
   FaWrench,
 } from "react-icons/fa";
@@ -40,7 +41,7 @@ const Header = () => {
     <header>
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
-          {/* <Navbar.Brand href='/'>MERN App</Navbar.Brand> */}
+          <Navbar.Brand href="/">Jason & Company</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           <Navbar.Collapse id="basic-navbar-nav">
@@ -82,6 +83,12 @@ const Header = () => {
               </Nav.Link> */}
               {userInfo ? (
                 <>
+                  <LinkContainer to="/">
+                    <Nav.Link>
+                      <FaSuitcase /> Cases
+                    </Nav.Link>
+                  </LinkContainer>
+
                   <NavDropdown title={userInfo.name} id="username">
                     <LinkContainer to="/profile">
                       <NavDropdown.Item>Profile</NavDropdown.Item>

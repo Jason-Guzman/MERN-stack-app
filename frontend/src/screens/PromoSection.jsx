@@ -8,12 +8,13 @@ const PromoSection = () => {
         <Carousel.Item className="item item-1" interval={8000}>
           <div className="item-content container text-center">
             <div className="item-content-inner">
+              <div className="dark-overlay"></div>
               <h2 className="heading">
-                The Perfect Bootstrap Template <br /> for Builders and Tradesmen
+                Optimize Your AWS Infrastructure with Our Expertise
               </h2>
               <p className="intro">
-                Effective one page website template <br />
-                designed for small trade businesses
+                Explore How We Can Optimize Your AWS Infrastructure for Maximum
+                Efficiency and Cost Savings
               </p>
               <Button variant="success" href="#contact" target="_blank">
                 Get a FREE Quote
@@ -25,14 +26,10 @@ const PromoSection = () => {
         <Carousel.Item className="item item-2" interval={8000}>
           <div className="item-content container text-center">
             <div className="item-content-inner">
-              <h2 className="heading">
-                UX Centred Design with <br /> SEO Friendly Code
-              </h2>
+              <div className="dark-overlay"></div>
+              <h2 className="heading">Your Trusted AWS Consulting Partner</h2>
               <p className="intro">
-                There is no need to start from scratch - we`ve got you covered.{" "}
-                <br />
-                Get this template and start building sites for all types of
-                trade businesses.
+                Learn About Our Journey and How We Can Empower Your AWS Success
               </p>
               <Button variant="success" href="#contact" target="_blank">
                 View Our Projects
@@ -44,11 +41,11 @@ const PromoSection = () => {
         <Carousel.Item className="item item-3" interval={8000}>
           <div className="item-content container text-center">
             <div className="item-content-inner">
-              <h2 className="heading">50+ Construction Icons Included</h2>
+              <div className="dark-overlay"></div>
+              <h2 className="heading">Always Ready to Serve You</h2>
               <p className="intro">
-                This template also includes a set of useful construction icon
-                fonts. <br />
-                You can easily pick the ones right for your site.
+                Get 24/7 AWS Support Now to Ensure the Reliability and
+                Availability of Your Cloud Applications
               </p>
               <Button variant="success" href="#contact" target="_blank">
                 Buy Now
@@ -60,13 +57,11 @@ const PromoSection = () => {
         <Carousel.Item className="item item-4" interval={8000}>
           <div className="item-content container text-center">
             <div className="item-content-inner">
-              <h2 className="heading">
-                Ready to build sites for <br /> trade businesses?
-              </h2>
+              <div className="dark-overlay"></div>
+              <h2 className="heading">Accelerate Your Software Delivery</h2>
               <p className="intro">
-                We`ve laid the foundations for you so you can easily make
-                successful sites for builders, plumbers, electricians,
-                carpenters, and many more.
+                Discover How Our DevOps Transformation Services Can Help You
+                Accelerate Software Delivery and Enhance Operational Efficiency
               </p>
               <Button variant="success" href="#contact" target="_blank">
                 Buy Now

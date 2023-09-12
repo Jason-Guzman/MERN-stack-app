@@ -70,8 +70,11 @@ const Footer = () => {
           <div className="footer-col follow-us-col col-lg-4 col-12">
             <h3 className="col-title">Follow Us</h3>
             <div className="intro">
-              Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper
-              libero.
+              Today, <strong>Jason & Company</strong> stands as a trusted name
+              in AWS consulting, known for our deep expertise, unwavering
+              commitment, and passion for helping businesses thrive in the
+              digital age. We invite you to be a part of our story, and
+              together, we can embrace the limitless possibilities of the cloud.
             </div>
 
             <div className="social-container">
